@@ -135,6 +135,8 @@ ol {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
+    border: 1px solid;
+    border-radius: 20px;
 }
 
 .spad {
@@ -624,7 +626,7 @@ ol {
 -----------------------*/
 
 .schedule-section {
-    padding-bottom: 60px;
+    padding-bottom: 10px;
 }
 
 .schedule-tab .nav-tabs {
