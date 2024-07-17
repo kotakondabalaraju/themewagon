@@ -23,6 +23,19 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style>
+        .accordion>.card>.card-header {
+            border-radius: 0;
+            margin-bottom: 2px;
+        }
+
+        .card-header {
+            padding: .50rem 1.2rem;
+            margin-bottom: 0;
+            background-color: hsla(202, 89%, 34%, 0.031);
+            border-bottom: 1px solid rgba(235, 17, 17, 0.125);
+        }
+    </style>
 </head>
 
 <body>
@@ -36,11 +49,11 @@
         <div class="container">
             <div class="logo">
                 <a href="./index.html">
-                    <img src="img/MakerSpaceLogo.png" alt="" class="img-fluid" style="max-width: 120px; height: auto;">
+                    <img src="img/MakerSpaceLogo.png" alt="" class="img-fluid" style="max-width: 110px; height: auto;">
                 </a>
-                
+
             </div>
-            <div class="nav-menu">
+            <div class="nav-menu mt-3">
                 <nav class="mainmenu mobile-menu">
                     <ul>
                         <li class="active"><a href="./index.html">Home</a></li>
@@ -49,7 +62,7 @@
                             <ul class="dropdown">
                                 <li><a href="#">Jayden</a></li>
                                 <li><a href="#">Sara</a></li>
-                                <li><a href="#">Emma1111</a></li>
+                                <li><a href="#">Emma</a></li>
                                 <li><a href="#">Harriet</a></li>
                             </ul>
                         </li>
@@ -66,7 +79,7 @@
     <!-- Header End -->
 
     <!-- Hero Section Begin -->
-    <section class="hero-section set-bg" data-setbg="img/hero.jpg">
+    <section class="hero-section set-bg background-content" data-setbg="img/banner.jpg" style="height: 690px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
@@ -76,101 +89,96 @@
                         <a href="https://forms.office.com/r/hi90AJQUMf" class="primary-btn">Join Now</a>
                     </div>
                 </div>
-                <div class="col-lg-5">
+                <!-- <div class="col-lg-5">
                     <img src="img/hero-right.png" alt="">
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
     <!-- Hero Section End -->
     <!-- Team Member Section Begin -->
     <section class="team-member-section mt-5">
-        <div class="container">
+        <div class="">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
                         <h2>Official event partners </h2>
                         <!-- <p>These are our communicators, you can see each person information</p> -->
+                        <div class=" slids-section">
+                            <div class="partner-logo owl-carousel">
+                                <a href="#" class="pl-table">
+                                    <div class="pl-tablecell">
+                                        <img src="img/team-member/edess.jpg" alt="" class="card p-3 rounded-3 shadow"
+                                            style="width: 130px; height: auto;">
+                                        <div class="mt-4">
+                                            <span style="color: #ff0000;font-size: 19px;">Organiser</span> : <span
+                                                style="color: black;font-size: 19px;">EDESS</span>
+                                        </div>
+
+                                    </div>
+                                </a>
+
+                                <a href="#" class="pl-table">
+                                    <div class="pl-tablecell">
+                                        <img src="img/team-member/UTM.png" alt="" class="card p-3 rounded-3 shadow"
+                                            style="width: 130px; height: auto;">
+                                        <div class="mt-4">
+                                            <span style="color: #ff0000;font-size: 19px;">Co-organiser</span> : <span
+                                                style="color: black;font-size: 19px;">UTM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="pl-table">
+                                    <div class="pl-tablecell">
+                                        <img src="img/team-member/YayasanJCorp.png" class="card p-3 rounded-3 shadow"
+                                            alt="" style="width: 130px; height: auto;">
+                                        <div class="mt-4">
+                                            <span style="color: #ff0000; font-size: 19px;">Sponsors</span> : <span
+                                                style="color: black; font-size: 19px;">Company A</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="pl-table">
+                                    <div class="pl-tablecell">
+                                        <img src="img/team-member/edess.jpg" class="card p-3 rounded-3 shadow" alt=""
+                                            style="width: 130px; height: auto;">
+                                        <div class="mt-4">
+                                            <span style="color: #ff0000;font-size: 19px;">Organiser</span> : <span
+                                                style="color: black;font-size: 19px;">EDESS</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="pl-table">
+                                    <div class="pl-tablecell">
+                                        <img src="img/team-member/UTM.png" class="card p-3 rounded-3 shadow" alt=""
+                                            style="width: 130px; height: auto;">
+                                        <div class="mt-4">
+                                            <span style="color: #ff0000;font-size: 19px;">Co-organiser</span> : <span
+                                                style="color: black;font-size: 19px;">UTM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="pl-table">
+                                    <div class="pl-tablecell">
+                                        <img src="img/team-member/YayasanJCorp.png" class="card p-3 rounded-3 shadow"
+                                            alt="" style="width: 130px; height: auto;">
+                                        <div class="mt-4">
+                                            <span style="color: #ff0000;font-size: 19px;">Organiser</span> : <span
+                                                style="color: black;font-size: 19px;">EDESS</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="member-item set-bg" data-setbg="img/team-member/edess.jpg">
-            <div class="mi-social">
-                <div class="mi-social-inner bg-gradient">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                </div>
-            </div>
-            <div class="mi-text">
-                <h5>EDESS Sdn Bhd</h5>
-                <span>Organiser</span>
-            </div>
-        </div>
-        <div class="member-item set-bg" data-setbg="img/team-member/UTM.png">
-            <div class="mi-social">
-                <div class="mi-social-inner bg-gradient">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                </div>
-            </div>
-            <div class="mi-text">
-                <h5>UTM</h5>
-                <span>Co-Organiser</span>
-            </div>
-        </div>
-
-        <div class="member-item set-bg" data-setbg="img/team-member/YayasanJCorp.png">
-            <div class="mi-social">
-                <div class="mi-social-inner bg-gradient">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                </div>
-            </div>
-            <div class="mi-text">
-                <h5>Yayasan JCorp</h5>
-                <span>Sponsor</span>
-            </div>
-        </div>
-        <div class="member-item set-bg" data-setbg="img/team-member/UTM.png">
-            <div class="mi-social">
-                <div class="mi-social-inner bg-gradient">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                </div>
-            </div>
-            <div class="mi-text">
-                <h5>UTM</h5>
-                <span>Co-Organiser</span>
-            </div>
-        </div>
-        <div class="member-item set-bg" data-setbg="img/team-member/edess.jpg">
-            <div class="mi-social">
-                <div class="mi-social-inner bg-gradient">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                </div>
-            </div>
-            <div class="mi-text">
-                <h5>EDESS Sdn Bhd</h5>
-                <span>Organiser</span>
             </div>
         </div>
     </section>
     <!-- Team Member Section End -->
 
     <!-- Counter Section Begin -->
-    <section class="counter-section bg-gradient mt-4">
+    <section class="counter-section bg-gradient">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
@@ -180,7 +188,8 @@
                         <span>We’re excited to organise the FIRST edition of MindLoops® Maker Space in Johor. </span>
                     </div>
                     <a href="https://www.google.com/maps/search/?api=1&amp;query=1.4775855471523127, 103.75288270477459"
-                        target="_blank">See Location &gt;</a>
+                        target="_blank" class="mt-4 text-dark" style="font-size: 17px; padding-top: 20px;">See Location
+                        &gt;</a>
 
                 </div>
                 <div class="col-lg-8">
@@ -209,7 +218,7 @@
     <!-- Counter Section End -->
 
     <!-- Schedule Section Begin -->
-    <section class="schedule-section spad">
+    <section class="schedule-section spad mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -219,115 +228,65 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="schedule-tab">
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">
-                                    <h5>Copy 1 </h5>
-                                    <!-- <p>May 04, 2019</p> -->
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">
-                                    <h5>Copy 2 </h5>
-                                    <!-- <p>May 05, 2019</p> -->
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">
-                                    <h5>Copy 3</h5>
-                                    <!-- <p>May 06, 2019</p> -->
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#tabs-4" role="tab">
-                                    <h5>Copy 4</h5>
-                                    <!-- <p>May 07, 2019</p> -->
-                                </a>
-                            </li>
-                        </ul>
-                        <!-- Tab panes -->
-                        <div class="tab-content">
-                            <div class="tab-pane active" id="tabs-1" role="tabpanel">
-                                <div class="st-content">
-                                    <div class="container">
-                                        <p>
-                                            MindLoops® Maker Space is looking for a team of 5 kids who have what it
-                                            takes to develop products or solutions for our local businesses.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tabs-2" role="tabpanel">
-                                <div class="st-content">
-                                    <div class="container">
-                                        <div class="row">
-                                            <h4>What is MindLoops® Maker Space? </h4>
-                                            <p class="mt-3">A hands-on collaborative program that brings together
-                                                like-minded
-                                                students to co-develop a prototype by using concepts from STEM and
-                                                technical skills from TVET. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tabs-3" role="tabpanel">
-                                <div class="st-content">
-                                    <div class="container">
-                                        <div class="row">
-                                            <h4>How can I participate?</h4>
-                                            <ul class="mt-3">
-                                                <li>Simply form a group of 5 from members of your school to participate.
-                                                    Remember to bring your teacher to support you!</li>
-                                                <li>Work together with your team to develop the idea and concept to
-                                                    produce a prototype based on the themes selected.</li>
-                                                <li>Submit your brilliant idea and concept for our juries to assess.
-                                                </li>
-                                                <li>Selected teams will be invited to join the main event.</li>
-                                                <li>Unleash your creativity by developing the prototype on the event
-                                                    day.</li>
-                                                <li>Present your wonderful prototype to our judges.</li>
-                                                <li>Winners will be awarded prizes!</li>
-                                            </ul>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tabs-4" role="tabpanel">
-                                <div class="st-content">
-                                    <div class="container">
-                                        <h4>Themes of the event </h4>
-                                        <div class="row mt-3">
-                                            <ul>
-                                                <li>Eco-friendly innovations </li>
-                                                <li>Healthy living solutions </li>
-                                                <li>Submit your brilliant idea and concept for our juries to assess.
-                                                </li>
-                                                <li>Selected teams will be invited to join the main event.</li>
-                                                <li>Unleash your creativity by developing the prototype on the event
-                                                    day.</li>
-                                                <li>Present your wonderful prototype to our judges.</li>
-                                                <li>Winners will be awarded prizes!</li>
-                                                <a href="https://forms.office.com/r/hi90AJQUMf"
-                                                    class="primary-btn mt-3">Join our program to participate </a>
-                                            </ul>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        </div>
+        <div class="container mt-2">
+            <div class="px-0" style="font-size: 18px;">
+                MindLoops® Maker Space is looking for a team of 5 kids who have what it
+                takes to develop products or solutions for our local businesses.
             </div>
+
+            <div class="row mt-3">
+                <h4 class="fw-bold">What is MindLoops® Maker Space? </h4>
+                <div class="mt-2" style="font-size: 17px;">A hands-on collaborative program that brings together
+                    like-minded
+                    students to co-develop a prototype by using concepts from STEM and
+                    technical skills from TVET. </div>
+            </div>
+
+
+            <div class="row mt-3">
+                <h4>How can I participate?</h4>
+                <ul class="mt-2 px-4" style="font-size: 17px;">
+                    <li>Simply form a group of 5 from members of your school to participate.
+                        Remember to bring your teacher to support you!</li>
+                    <li>Work together with your team to develop the idea and concept to
+                        produce a prototype based on the themes selected.</li>
+                    <li>Submit your brilliant idea and concept for our juries to assess.
+                    </li>
+                    <li>Selected teams will be invited to join the main event.</li>
+                    <li>Unleash your creativity by developing the prototype on the event
+                        day.</li>
+                    <li>Present your wonderful prototype to our judges.</li>
+                    <li>Winners will be awarded prizes!</li>
+                </ul>
+            </div>
+
+            <div class="mt-4">
+                <h4>Themes of the event </h4>
+                <div class="row mt-2 px-4" style="font-size: 17px;">
+                    <ul>
+                        <li>Eco-friendly innovations </li>
+                        <li>Healthy living solutions </li>
+                        <li>Submit your brilliant idea and concept for our juries to assess.
+                        </li>
+                        <li>Selected teams will be invited to join the main event.</li>
+                        <li>Unleash your creativity by developing the prototype on the event
+                            day.</li>
+                        <li>Present your wonderful prototype to our judges.</li>
+                        <li>Winners will be awarded prizes!</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="container text-center mt-4">
+            <a href="https://forms.office.com/r/hi90AJQUMf" class="primary-btn mt-3">Join our
+                program to participate </a>
         </div>
     </section>
     <!-- Schedule Section End -->
 
-    <section class="mt-3 mb-5">
+    <section class="mt-5 mb-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -337,7 +296,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-3">
                 <div class="col-lg-12">
                     <div class="accordion" id="accordionExample">
                         <div class="card">
@@ -502,7 +461,8 @@
                 <div class="col-lg-12">
                     <div class="footer-text">
                         <div class="ft-logo">
-                            <a href="#" class="footer-logo"> <img src="img/MakerSpaceLogo.png" alt="" class="img-fluid" style="max-width: 120px; height: auto;"></a>
+                            <a href="#" class="footer-logo"> <img src="img/MakerSpaceLogo.png" alt="" class="img-fluid"
+                                    style="max-width: 120px; height: auto;"></a>
                         </div>
                         <ul>
                             <li><a href="#">privacy Policy</a></li>

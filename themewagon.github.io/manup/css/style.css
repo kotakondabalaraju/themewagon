@@ -48,7 +48,7 @@ h5,
 h6 {
     margin: 0;
     color: #111111;
-    font-weight: 400;
+    font-weight: 500;
     font-family: "Work Sans", sans-serif;
 }
 
@@ -115,7 +115,7 @@ ol {
 
 .section-title {
     text-align: center;
-    margin-bottom: 52px;
+    /* margin-bottom: 52px; */
 }
 
 .section-title h2 {
@@ -136,11 +136,13 @@ ol {
     background-size: cover;
     background-position: top center;
     border: 1px solid;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+    
 }
 
+
 .spad {
-    padding-top: 100px;
+    /* padding-top: 40px; */
     padding-bottom: 100px;
 }
 
@@ -394,10 +396,30 @@ ol {
 
 .hero-section {
     padding-top: 55px;
+    
+}
+
+.background-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Adjust the blur intensity as needed */
+    /* For Safari support */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    /* Adjust the gradient colors and opacity as needed */
+    z-index: -1; /* Ensure the blur effect is behind the content */
+}
+
+.background-content {
+    position: relative;
+    z-index: 0;
 }
 
 .hero-section .hero-text {
-    padding-top: 184px;
+    padding-top: 150px;
 }
 
 .hero-section .hero-text span {
@@ -405,6 +427,7 @@ ol {
     color: #f44949;
     text-transform: uppercase;
     letter-spacing: 2px;
+    /* background-color: #000; */
 }
 
 .hero-section .hero-text h2 {
@@ -421,7 +444,7 @@ ol {
 -----------------------*/
 
 .counter-section {
-    padding: 40px 0;
+    padding: 40px ;
 }
 
 .counter-section .counter-text span {
@@ -1129,7 +1152,11 @@ ol {
     padding-top: 50px;
     padding-bottom: 60px;
 }
-
+.slids-section {
+    /* background: #171822; */
+    padding-top: 80px;
+    /* padding-bottom: 10px; */
+}
 .partner-logo {
     padding-bottom: 50px;
     border-bottom: 1px solid #2f3039;
